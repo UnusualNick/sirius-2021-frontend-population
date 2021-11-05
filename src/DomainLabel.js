@@ -3,7 +3,7 @@ import './patch.css';
 
 function DomainLabel(props) {
     return(
-        <p className="DomainLabel">{props.name}</p>
+        <p className="text-left DomainLabel">{props.name}</p>
     );
 }
 

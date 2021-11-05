@@ -4,7 +4,7 @@ import Row from './Row';
 
 function Countries() {
 	return (
-    <div className="Countries">
+    <div className="items-center Countries">
         <Row name="World"/>
         <Row name="China"/>
         <Row name="India"/>

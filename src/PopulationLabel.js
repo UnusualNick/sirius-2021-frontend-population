@@ -3,7 +3,7 @@ import './patch.css';
 
 function PopulationLabel(props) {
     return(
-        <p>{props.amount}</p>
+        <p className="PopulationLabel">{props.amount}</p>
     );
 }
 

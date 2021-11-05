@@ -8,7 +8,7 @@ import PopulationLabel from './PopulationLabel';
 
 function Row(props) {
 	return (
-    <div className="Row" >
+    <div className="flex flex-row Row" >
         
         <DomainLabel name={props.name} />
         <Bar width={getBarWidth(props.name)}/>

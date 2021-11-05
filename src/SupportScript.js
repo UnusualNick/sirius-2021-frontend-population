@@ -1,6 +1,3 @@
-import './App.css';
-import './patch.css';
-
 const countriesTuple = {
 	"World" : {
 		"barWidth": "649",
